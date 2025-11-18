@@ -17,15 +17,15 @@ connectDB();
 const app = express();
 
 // Middlewares
-app.use(cors()); // CORS ko enable karein
-app.use(express.json()); // Request body ko parse karne ke liye (JSON format)
+app.use(cors()); 
+app.use(express.json()); 
 
 // Basic Test Route
 app.get('/', (req, res) => {
   res.send('API is running successfully...');
 });
 
-// (Hum baki routes yahan add karenge)
+
 app.use('/api/projects', projectRoutes);
 app.use('/api/clients', clientRoutes);
 app.use('/api/contact', contactRoutes);
