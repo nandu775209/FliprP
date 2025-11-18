@@ -1,0 +1,59 @@
+.hero-section {
+  position: relative;
+  height: 500px; /* Height of the hero section */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  
+  /* AI Generated Image as background (aapki pasand ki image daal dein) */
+  background-image: url('https://image.pollinations.ai/prompt/modern%20office%20building%20with%20city%20skyline,%20futuristic,%20digital%20transformation,%20blue%20and%20orange%20accents?width=1200&height=500&seed=42');
+  
+  /* Overlay to make text readable */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+}
+
+.hero-content {
+  position: relative; /* Overlay ke upar aane ke liye */
+  z-index: 1;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero-button {
+  background-color: #e67e22; /* Orange button */
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #d35400;
+}

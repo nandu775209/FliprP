@@ -1,0 +1,76 @@
+.admin-form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.admin-form-container h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.admin-form-container p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.admin-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.admin-form .form-group label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.admin-form .form-group input[type="text"],
+.admin-form .form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Important */
+}
+
+.admin-form .form-group textarea {
+  resize: vertical; /* Allow vertical resize */
+}
+
+.admin-form .form-group small {
+  display: block;
+  font-size: 0.8rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+.admin-submit-btn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #27ae60; /* Green for 'Add' */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.admin-submit-btn:hover {
+  background-color: #219d53;
+}
+
+.admin-form-message {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #27ae60; /* Green message */
+}

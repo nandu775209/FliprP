@@ -1,0 +1,66 @@
+.contact-form-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: #f4f4f4; /* Light background for the section */
+}
+
+.contact-form-container {
+  width: 100%;
+  max-width: 450px; /* Form ki max width */
+  background-color: #4a5a7b; /* PDF reference ka dark blue background */
+  padding: 2.5rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.contact-form-container h2 {
+  color: white;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  color: #333;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Padding ko width mein include karein */
+}
+
+.form-group input::placeholder {
+  color: #999;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e67e22; /* PDF reference ka orange button */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #d35400;
+}
+
+.form-message {
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
